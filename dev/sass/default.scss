@@ -1,0 +1,51 @@
+.c4d-post-show {
+	.item {
+		.item-inner {
+			margin-bottom: 30px;
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.post-image {
+				float: left;
+				width: 33%;
+				max-width: 100px;
+				height: auto;
+				margin-right: 20px; 
+				img {
+					width: 100%;
+					height: auto;
+					margin: auto;
+					padding: 0;
+				}
+			}
+			.post-info {
+				float: left;
+				width: 54%;
+				.title {
+					margin: auto;
+					padding: 0;
+					font-size: 15px;
+					line-height: 22px;
+					color: #666;
+				}
+				.post-categories {
+					margin: auto;
+					padding: 0;
+					list-style: none;
+					li {
+						margin: auto;
+						padding: 0;
+						a {
+							font-size: 10px;
+							line-height: 22px;
+							text-transform: uppercase;
+							color: #999;
+						}
+					}
+				}
+			}
+		}
+	}
+}
